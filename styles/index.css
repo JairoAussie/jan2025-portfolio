@@ -8,6 +8,10 @@
 body {
     margin: 0;
     background-color: var(--primary-background);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
 }
 header {
     background-color: var(--primary-color);
@@ -44,4 +48,24 @@ nav {
 nav a{
     text-decoration: none;
     color: var(--tertiary-color);
+}
+
+footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 16px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-media i {
+    color: var(--tertiary-color);
+    font-size: 20px;
+}
+
+.info {
+    color: var(--tertiary-color)
 }
