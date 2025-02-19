@@ -45,3 +45,13 @@ Footer has social media links and some other information such as contact and add
     </div>
 </footer>
 ```
+
+## Pages
+
+### Home
+
+Home is the starting page of the website which consists of a cover image and some detail about the company.
+
+### Services
+
+Services shows different services provided by the company such as Web Development.
