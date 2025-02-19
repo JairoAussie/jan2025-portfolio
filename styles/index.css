@@ -61,7 +61,7 @@ footer {
     justify-content: space-around;
 }
 
-.social-media i {
+.social-media a i {
     color: var(--tertiary-color);
     font-size: 20px;
 }
